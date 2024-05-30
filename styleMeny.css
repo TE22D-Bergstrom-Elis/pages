@@ -1,0 +1,47 @@
+html{
+    background-color: blanchedalmond;
+}
+
+h1{
+    text-align: center;
+}
+
+.meny {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-left: 420px;
+}
+
+.meny li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.meny li a {
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 11px;
+    text-align: center;
+    box-shadow: 1px 1px 1px black;
+}
+
+.meny li a:hover{
+    text-decoration: none;
+    background-color: lightskyblue;
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 11px;
+    text-align: center;
+    box-shadow: 1px 1px 1px black;
+}
+
+button{
+    text-align: center;
+    margin-left: 375px;
+}

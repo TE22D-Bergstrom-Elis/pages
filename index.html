@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleMeny.css">
+    <title>Qatar blogg</title>
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Qatar Blogg</h1>
+            <ul class="meny">
+                <li><a href="sida1.html">Hotellet</a></li>
+                <li><a href="sida2.html">Landet</a></li>
+                <li><a href="sida3.html">Köpcenter och marknader</a></li>
+            </ul>
+            <button onclick="Normal()">Normal</button>
+            <button onclick="rotera()">Upponervänd</button>
+            <script>
+                // lärde mig om rotare när jag skrollade igenom w3schools.com
+                function rotera()
+                {
+                    document.body.style.transform = "rotate(180deg)";
+                }
+            </script>
+            <script>
+                function Normal()
+                {
+                    document.body.style.transform = "initial";
+                }
+            </script>
+            <script>
+                alert("Tryck på OK för att se hemsidan")
+            </script>
+
+    </div>
+</body>
+</html>
